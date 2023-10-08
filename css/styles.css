@@ -27,7 +27,7 @@
     transition: box-shadow 0.3s ease;
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
     background-color: #F5F5F5;
-    justify-content: top;
+    justify-content:space-evenly;
     align-items: center;
     position: fixed; 
     top: 0;
@@ -207,9 +207,10 @@ a {
     font-weight: 800;
 }
 
-ul {
-    text-decoration: none;
+.chat-app-img-mobile {
+    display: none;
 }
+
 
 
 
@@ -292,7 +293,7 @@ ul {
     }
 }
 
-@media (min-width: 300px) and (max-width: 600px) {
+@media (min-width: 250px) and (max-width: 600px) {
 
     .body{
         display: flex;
@@ -314,6 +315,7 @@ ul {
     .side-bar {
         display: flex;
         flex-direction: column;
+        /* height: 90vh; */
         /* border: 3px solid red; */
         height: fit-content;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -358,7 +360,15 @@ ul {
     .find-me-on {
         display: none;
     }
-    
+}
+
+@media (min-width: 250px) and (max-width: 1300px) {
+    .chat-app-img-mobile {
+        display: block;
+    }
+    .chat-app-img-desktop {
+        display: none;
+    }
 }
 
 
