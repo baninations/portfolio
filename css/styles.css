@@ -1,6 +1,7 @@
 .body{
     display: flex;
     flex-direction: row;
+    font-family: sans-serif, 'Times New Roman', Times, serif;
 }
 
 .content-view {
@@ -21,7 +22,7 @@
     flex: 20%;
     flex-direction: column;
     /* border: 3px solid red; */
-    height: 90vh;
+    height: 100%;
     /* width: 20vw; */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: box-shadow 0.3s ease;
@@ -34,11 +35,15 @@
     left: 0; 
     width: 20%; 
 }
+
+.side-bar-list {
+    list-style-type: none;
+}
+
 .cards-container {
     /* display: flex;
     flex-direction: row; */
-    
-}
+    }
 
 .links {
     display: flex;
@@ -120,6 +125,14 @@ a {
     align-items: center;
     text-align: center;
     
+  }
+
+  .profile-info {
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: left;
+    /* padding-left: 100px;
+    padding-right: 100px; */
   }
 
   .profile_portrait {
@@ -211,6 +224,31 @@ a {
     display: none;
 }
 
+.bio {
+    text-align: start;
+}
+
+.name {
+    font-size: 2rem;
+    text-align: center;
+    line-height: 0.5rem;
+}
+
+.title {
+    /* text-align: center;
+    font-size: x-large;
+    line-height: 0.5rem; */
+        font-family: 'Arial', sans-serif;
+        font-size: 24px;
+        background-color: #3498db; /* Background color */
+        color: #fff; /* Text color */
+        padding: 10px 20px; /* Padding for spacing */
+        border-radius: 5px; /* Rounded corners */
+        text-align: center; /* Center text */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+
+}
+
 
 
 
@@ -234,7 +272,7 @@ a {
         flex: 30%;
         flex-direction: column;
         /* border: 3px solid red; */
-        height: 90vh;
+        height: 100%;
         /* width: 20vw; */
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         transition: box-shadow 0.3s ease;
@@ -278,7 +316,7 @@ a {
         flex: 30%;
         flex-direction: column;
         /* border: 3px solid red; */
-        height: 90vh;
+        height: 100%;
         /* width: 20vw; */
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         transition: box-shadow 0.3s ease;
@@ -335,6 +373,7 @@ a {
         width: 100vw;
         margin: 0;
         padding-left: 0;
+        padding-right: 20px;
 
     }
 
@@ -360,6 +399,11 @@ a {
     .find-me-on {
         display: none;
     }
+    .profile-info{
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: left;
+    }
 }
 
 @media (min-width: 250px) and (max-width: 1300px) {
@@ -369,51 +413,10 @@ a {
     .chat-app-img-desktop {
         display: none;
     }
+    .profile-info {
+        margin-left: 20px;
+        margin-right: 0px;
+        text-align: left;
+    }
 }
-
-
-
-
-/* .card {
-    width: 300px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    margin: 20px;
-    padding: 20px;
-    background-color: #fff;
-}
-
-.card img {
-    width: 100%;
-    border-radius: 5px 5px 0 0;
-}
-
-.card-content {
-    padding: 10px;
-}
-
-.card h2 {
-    font-size: 24px;
-    margin: 0;
-}
-
-.card p {
-    font-size: 16px;
-    margin: 10px 0;
-}
-
-.card a {
-    text-decoration: none;
-    background-color: #007BFF;
-    color: #fff;
-    padding: 5px 10px;
-    border-radius: 3px;
-    display: inline-block;
-    margin-top: 10px;
-}
-
-.card a:hover {
-    background-color: #0056b3;
-} 
 
