@@ -4,343 +4,442 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <title>Portfolio</title>
 </head>
 
 <body class="body">
 
-    <section class="side-bar">
+    <section class="body-container">
+
+        <div class="mobile-container">
+
+            <div class="topnav">
+                <a href="javascript:void(0);" class="active navbar-name" onclick="myFunction()"><img class="logo-mobile"
+                        src="./assets/logo.png" alt="logo"> </a>
+                <div id="myLinks">
+
+                    <section class="links">
+
+                        <ul class="side-bar-list">
+                            <li>
+                                <h2 class="portfolio-title">Portfolio</h2>
+                            </li>
+                            <li> <a class="link-item" href="#profile">Home</a></li>
+                            <li> <a class="link-item" href="#profile">Profile</a></li>
+                            <li> <a class="link-item" href="#skills">Skills</a></li>
+                            <li>
+                                <h2 class="projects-title">Projects</h2>
+                            </li>
+                            <li> <a class="link-item" href="#pokedex">Pokédex </a></li>
+                            <li> <a class="link-item" href="#myFlixApi">Movie Server API</a></li>
+                            <li> <a class="link-item" href="#myFlixReact">myFlix React</a></li>
+                            <li> <a class="link-item" href="#MeetApp">Meet App</a></li>
+                            <li> <a class="link-item" href="#ChatApp">Chat App</a></li>
+                            <li> <a class="link-item" href="#myFlixAngular">myFlix Angular</a></li>
+                            <li> <a class="link-item" href="#findMeOn">Contact</a></li>
+                        </ul>
+                    </section>
+
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
 
 
-        <img class="logo" src="./assets/logo.png" alt="logo">
-        <section class="links">
+            <!-- End smartphone / tablet look -->
 
-            <ul class="side-bar-list">
-                <li>
-                    <h2 class="portfolio-title">Portfolio</h2>
-                </li>
-                <li> <a class="link-item" href="#profile">Home</a></li>
-                <li> <a class="link-item" href="#profile">Profile</a></li>
-                <li> <a class="link-item" href="#skills">Skills</a></li>
-                <li>
-                    <h2 class="projects-title">Projects</h2>
-                </li>
-                <li> <a class="link-item" href="#pokedex">Pokédex </a></li>
-                <li> <a class="link-item" href="#myFlixApi">Movie Server API</a></li>
-                <li> <a class="link-item" href="#myFlixReact">myFlix React</a></li>
-                <li> <a class="link-item" href="#MeetApp">Meet App</a></li>
-                <li> <a class="link-item" href="#ChatApp">Chat App</a></li>
-                <li> <a class="link-item" href="#myFlixAngular">myFlix Angular</a></li>
-            </ul>
-        </section>
-
-        <section class="find-me-on">
-            <h2 class="fmo-title">Find me on</h2>
-            <section id="social-media">
-                <a class="social-media-icons" href="https://github.com/baninations" target="_blank"><img
-                        src="assets/github.svg" alt="Github" /></a>
-                <a class="social-media-icons" href="https://de.linkedin.com/in/alban-mramori-4069781a2"
-                    target="_blank"><img src="assets/linkedin.svg" alt="LinkedIn" /></a>
-                <a class="social-media-icons" href="mailto:mramorialban@gmail.com" target="_blank"><img
-                        src="assets/email.svg" alt="E-mail" /></a>
-            </section>
-            <a class="email" href="mailto:mramorialban@gmail.com">Mramorialban@gmail.com</a>
-
-        </section>
-
-    </section>
+            <section class="side-bar">
 
 
+                <img class="logo" src="./assets/logo1.png" alt="logo">
+                <section class="links">
 
-    <section class="content-view">
-
-        <section id="profile">
-            <section class="profile">
-                <img src="assets/portrait-removebg-preview (1).png" class="profile_portrait"
-                    alt="Alban Mramori Portrait" />
-
-
-                <section class="profile-info">
-                    <h1 class="name">Alban Mramori</h1>
-                    <p class="title">Junior Full-Stack Web Developer</p>
-
-                    <p>I am a certified Full-Stack developer, and my career path has been far from conventional. I come
-                        from a background in logistics, where I had a leading role, overseeing a team of over 20
-                        employees, ensuring their tasks were carried out efficiently, and resolving payment issues with
-                        our partners. I tackled and resolved more than 80 issues each month, showcasing my
-                        problem-solving skills and dedication to achieving results.</p>
-
-                    <p>My transition into the world of technology began in a repair shop when I was 17, where I dived
-                        into the realms of software and hardware, handling mobile phones, computers, and laptops. This
-                        experience not only expanded my technical expertise but also introduced me to the importance of
-                        problem-solving and attention to detail.</p>
-
-                    <p>My passion for technology is what fuels my journey. During my time in logistics, I took it upon
-                        myself to self-learn Android development, resulting in the creation of several small projects,
-                        Android apps, and even a backend server using Ktor. What attracts me most about software
-                        development is its accessibility – all you need is a computer, a stable internet connection, and
-                        the right education to craft software solutions that can truly make a difference. This lack of
-                        dependency on physical tools, which can be subject to delays and difficulties, makes software
-                        development a dynamic and accessible field.</p>
-
-                    <p>I find immense satisfaction in tackling challenges and that surge of accomplishment when solving
-                        persistent problems. In the current digital age, the internet is not just a source of leisure
-                        but also a hub for business activities. I take pride in the ability to build applications that
-                        enhance people's online experiences and provide value.</p>
-
-                    <p>While I'm primarily focused on a career in frontend development, I'm also open to exploring
-                        backend development with Node.js. My certification journey involved building six projects, all
-                        of which are proudly displayed on my portfolio page. These projects allowed me to mirror the
-                        experience of working at a real company, from setting up IDE and managing dependencies to
-                        connecting frontend and backend components through APIs and databases. I've learned to convert
-                        designs into code, tackle programming challenges through debugging, and see projects through to
-                        their launch.</p>
-
-                    <p>My curiosity and passion for learning drive me, not only in my professional pursuits but also in
-                        my personal life. I look forward to bringing my unique blend of experiences and unwavering
-                        dedication to a career in web development, creating solutions that make a difference in the
-                        digital landscape.</p>
-
-                    <hr class="solid">
-                </section>
-            </section>
-
-            <section id="skills" class="skills-list">
-
-                <section class="junior-level">
-                    <h2>Junior Level Skills</h2>
-                    <ul class="ul">
-                        <li class="skill li">
-                            <span class="skill-name">HTML</span>
+                    <ul class="side-bar-list">
+                        <li>
+                            <h2 class="portfolio-title">Portfolio</h2>
                         </li>
-                        <li class="skill li">
-                            <span class="skill-name">CSS</span>
+                        <li> <a class="link-item" href="#profile">Home</a></li>
+                        <li> <a class="link-item" href="#profile">Profile</a></li>
+                        <li> <a class="link-item" href="#skills">Skills</a></li>
+                        <li>
+                            <h2 class="projects-title">Projects</h2>
                         </li>
-                        <li class="skill li">
-                            <span class="skill-name">Javascript</span>
-                        </li>
-                        <li class="skill li">
-                            <span class="skill-name">Node JS</span>
-                        </li>
-                        <li class="skill li">
-                            <span class="skill-name">Express JS</span>
-                        </li>
-                        <li class="skill li">
-                            <span class="skill-name">MongoDB</span>
-                        </li>
-                        <li class="skill li">
-                            <span class="skill-name">REACT JS</span>
-                        </li>
-                        <li class="skill li">
-                            <span class="skill-name">React native</span>
-                        </li>
-                        <li class="skill li">
-                            <span class="skill-name">Bootstrap</span>
-                        </li>
+                        <li> <a class="link-item" href="#pokedex">Pokédex </a></li>
+                        <li> <a class="link-item" href="#myFlixApi">Movie Server API</a></li>
+                        <li> <a class="link-item" href="#myFlixReact">myFlix React</a></li>
+                        <li> <a class="link-item" href="#MeetApp">Meet App</a></li>
+                        <li> <a class="link-item" href="#ChatApp">Chat App</a></li>
+                        <li> <a class="link-item" href="#myFlixAngular">myFlix Angular</a></li>
                     </ul>
                 </section>
-                <section class="beginner-level">
-                    <h2>Beginner skills</h2>
-                    <ul class="ul">
-                        <li class="skill li">
-                            <span class="skill-name">Angular</span>
-                        </li>
-                        <li class="skill li">
-                            <span class="skill-name">Android</span>
-                        </li>
-                        <li class="skill li">
-                            <span class="skill-name">Kotlin</span>
-                        </li>
-                    </ul>
 
-                </section>
-            </section>
-        </section>
-        <hr class="solid">
-
-        <h2 class="portfolio-title-section">My Portfolio hilights</h2>
-
-        <section id="pokedex" class="pokedex">
-            <section class="card">
-                <img src="assets/A1.png" alt="Card Image">
-                <section class="card-content">
-                    <h2>Pokédex</h2>
-                    <p>The Pokédex JavaScript App is a small web application built with HTML, CSS, and JavaScript.
-                        It
-                        loads data from an external API and allows users to view a list of data items (in this case,
-                        Pokémon) and see more details for a selected data item.</p>
-                    <h2>Technologies Used</h2>
-                    <ul>
-                        <li class="tech-used">HTML</li>
-                        <li class="tech-used">CSS</li>
-                        <li class="tech-used">JavaScript</li>
-                        <li class="tech-used">Ajax for asynchronous API data fetching</li>
-                    </ul>
-                    <a target="_blank" href="https://baninations.github.io/pokedex/">Visit site</a>
-                    <a target="_blank" href="https://github.com/baninations/pokedex">See project on Github</a>
-                </section>
-            </section>
-        </section>
-
-        <section class="cards-container">
-
-            <section id="myFlixApi" class="pokedex">
-                <section class="card">
-                    <img src="assets/A2.png" alt="Card Image">
-                    <section class="card-content">
-                        <h2>myFlix API</h2>
-                        <p>The myFlix Express.js API is the server-side component of the myFlix movie application. This
-                            API handles user registration and authentication, as well as provides access to movie
-                            information, director details, and genre data. It is designed to work in conjunction with
-                            the myFlix Angular client-side application.</p>
-                        <h2>Technologies Used</h2>
-                        <ul>
-                            <li>JavaScript</li>
-                            <li>Node.js</li>
-                            <li>Express.js</li>
-                            <li>MongoDB</li>
-                            <li>REST API</li>
-                            <li>JWT Authentication</li>
-                            <li>Heroku</li>
-                        </ul>
-                        <a target="_blank" href="https://movies-flix-al-f68cdd84f041.herokuapp.com/">Visit site</a>
-                        <a target="_blank" href="https://github.com/baninations/server-movie-api">See project on
-                            gitHub</a>
+                <section class="find-me-on">
+                    <h2 class="fmo-title">Find me on</h2>
+                    <section id="social-media">
+                        <a class="social-media-icons" href="https://github.com/baninations" target="_blank"><img
+                                src="assets/github.svg" alt="Github" /></a>
+                        <a class="social-media-icons" href="https://de.linkedin.com/in/alban-mramori-4069781a2"
+                            target="_blank"><img src="assets/linkedin.svg" alt="LinkedIn" /></a>
+                        <a class="social-media-icons" href="mailto:mramorialban@gmail.com" target="_blank"><img
+                                src="assets/email.svg" alt="E-mail" /></a>
                     </section>
+                    <a class="email" href="mailto:mramorialban@gmail.com">Mramorialban@gmail.com</a>
+
                 </section>
+
             </section>
 
 
-            <section id="myFlixReact" class="pokedex">
-                <section class="card">
-                    <img src="assets/A3.png" alt="Card Image">
-                    <section class="card-content">
-                        <h2>myFlix React</h2>
-                        <p> The myFlix React App is a single-page, responsive web application that
-                            allows movie enthusiasts to access information about different movies, create user profiles,
-                            and save their favorite movies. It serves as the client-side component for the myFlix movie
-                            application, working in conjunction with the server-side API.</p>
-                        <h2>Technologies Used</h2>
-                        <ul>
-                            <li>JavaScript</li>
-                            <li>React JS</li>
-                            <li>Parcel</li>
-                            <li>State</li>
-                            <li>React Forms</li>
-                            <li>React Routing</li>
-                            <li>React Bootstrap</li>
-                            <li>Netlify</li>
-                        </ul>
-                        <a target="_blank" href="https://my-flix-alban.netlify.app/">Visit site</a>
-                        <a target="_blank" href="https://github.com/baninations/myFlixReact">See project on gitHub</a>
-                    </section>
-                </section>
-            </section>
 
-            <section id="MeetApp" class="pokedex">
-                <section class="card">
-                    <img src="assets/A4.png" alt="Card Image">
-                    <section class="card-content">
-                        <h2>Meet App</h2>
-                        <p> Meet is a serverless, progressive web application (PWA) built with
-                            React. It includes data visualization using a test-driven development (TDD) technique and
-                            leverages the Google Calendar API to fetch upcoming events. You can use it to get events in
-                            a city near you.</p>
-                        <h2>Technologies Used</h2>
-                        <ul>
-                            <li>JavaScript</li>
-                            <li>Test Driven Development</li>
-                            <li>Serverless Functions</li>
-                            <li>Unit Testing</li>
-                            <li>Integration Testing</li>
-                            <li>User Acceptance Testing</li>
-                            <li>End-to-End Testing</li>
-                            <li>Continuous Integration/Continuous Deployment (CI/CD)</li>
-                            <li>Progressive Web Applications (PWA)</li>
-                            <li>Data Visualization</li>
-                            <li>AWS (Amazon Web Services)</li>
-                            <li>Calendar API</li>
-                            <li>OAuth 2</li>
-                        </ul>
-                        <a target="_blank" href="https://baninations.github.io/meet">Visit site</a>
-                        <a target="_blank" href="https://github.com/baninations/meet">See project on gitHub</a>
-                    </section>
-                </section>
-            </section>
+            <section class="content-view">
 
-            <section id="ChatApp" class="pokedex">
-                <section class="card card-chat">
-                    <img class="chat-app-img-desktop" src="assets/A55.png" alt="Card Image">
-                    <img class="chat-app-img-mobile" src="assets/A5.png" alt="Card Image">
-                    <section class="card-content">
-                        <h2>Chat App</h2>
-                        <p> This is a mobile chat application developed using React Native and Expo,
-                            featuring real-time chat functionality, image sharing, location sharing, and offline data
-                            storage. Users can personalize their chat experience by choosing background colors.</p>
-                        <h2>Technologies Used</h2>
-                        <ul>
-                            <li>JavaScript</li>
-                            <li>React Native</li>
-                            <li>Expo</li>
-                            <li>Android Studio (Emulator)</li>
-                            <li>Gifted Chat</li>
-                            <li>Real-Time App</li>
-                            <li>Data Storage</li>
-                            <li>Firebase</li>
-                            <li>Firestore Authentication</li>
-                            <li>Client-Side Storage</li>
-                        </ul>
-                        <a target="_blank" href="https://github.com/baninations/chat-app">See project on gitHub</a>
-                    </section>
-                </section>
-            </section>
+                <section id="profile">
+                    <section class="profile">
+                        <img src="assets/portrait-removebg-preview (1).png" class="profile_portrait"
+                            alt="Alban Mramori Portrait" />
 
-            <section id="myFlixAngular" class="pokedex">
-                <section class="card">
-                    <img src="assets/A6.png" alt="Card Image">
-                    <section class="card-content">
-                        <h2>myFlix Angular</h2>
-                        <p>The myFlix Angular App is a single-page, responsive movie application
-                            built using Angular. It allows users to access information about movies, directors, and
-                            genres. Users can create profiles to save data about their favorite movies. This app is
-                            designed to facilitate user requests and render responses from the server-side via various
-                            interface views.</p>
-                        <h2>Technologies Used</h2>
-                        <ul>
-                            <li>Typescript</li>
-                            <li>Angular</li>
-                            <li>Angular CLI</li>
-                            <li>Data Binding</li>
-                            <li>Interpolation</li>
-                            <li>Angular Forms</li>
-                            <li>Material Design</li>
-                            <li>TypeDoc</li>
-                            <li>GitHub Pages (GH-Pages)</li>
-                        </ul>
-                        <a target="_blank" href="https://baninations.github.io/myFlixx/welcome">Visit site</a>
-                        <a target="_blank" href="https://github.com/baninations/myFlixx">See project on gitHub</a>
-                    </section>
-                </section>
-                <footer class="footer">
-                    <section class="find-me-on-footer">
-                        <h2 class="fmo-title">Find me on</h2>
-                        <section id="social-media-footer">
-                            <a class="social-media-icons" href="https://github.com/baninations" target="_blank"><img
-                                    src="assets/github.svg" alt="Github" /></a>
-                            <a class="social-media-icons" href="https://de.linkedin.com/in/alban-mramori-4069781a2"
-                                target="_blank"><img src="assets/linkedin.svg" alt="LinkedIn" /></a>
-                            <a class="social-media-icons" href="mailto:mramorialban@gmail.com" target="_blank"><img
-                                    src="assets/email.svg" alt="E-mail" /></a>
+
+                        <section class="profile-info">
+                            <h1 class="name">Alban Mramori</h1>
+                            <p class="title">Junior Full-Stack Web Developer</p>
+
+                            <p>I am a certified Full-Stack developer, and my career path has been far from conventional.
+                                I
+                                come
+                                from a background in logistics, where I had a leading role, overseeing a team of over 20
+                                employees, ensuring their tasks were carried out efficiently, and resolving payment
+                                issues
+                                with
+                                our partners. I tackled and resolved more than 80 issues each month, showcasing my
+                                problem-solving skills and dedication to achieving results.</p>
+
+                            <p>My transition into the world of technology began in a repair shop when I was 17, where I
+                                dived
+                                into the realms of software and hardware, handling mobile phones, computers, and
+                                laptops.
+                                This
+                                experience not only expanded my technical expertise but also introduced me to the
+                                importance
+                                of
+                                problem-solving and attention to detail.</p>
+
+                            <p>My passion for technology is what fuels my journey. During my time in logistics, I took
+                                it
+                                upon
+                                myself to self-learn Android development, resulting in the creation of several small
+                                projects,
+                                Android apps, and even a backend server using Ktor. What attracts me most about software
+                                development is its accessibility – all you need is a computer, a stable internet
+                                connection,
+                                and
+                                the right education to craft software solutions that can truly make a difference. This
+                                lack
+                                of
+                                dependency on physical tools, which can be subject to delays and difficulties, makes
+                                software
+                                development a dynamic and accessible field.</p>
+
+                            <p>I find immense satisfaction in tackling challenges and that surge of accomplishment when
+                                solving
+                                persistent problems. In the current digital age, the internet is not just a source of
+                                leisure
+                                but also a hub for business activities. I take pride in the ability to build
+                                applications
+                                that
+                                enhance people's online experiences and provide value.</p>
+
+                            <p>While I'm primarily focused on a career in frontend development, I'm also open to
+                                exploring
+                                backend development with Node.js. My certification journey involved building six
+                                projects,
+                                all
+                                of which are proudly displayed on my portfolio page. These projects allowed me to mirror
+                                the
+                                experience of working at a real company, from setting up IDE and managing dependencies
+                                to
+                                connecting frontend and backend components through APIs and databases. I've learned to
+                                convert
+                                designs into code, tackle programming challenges through debugging, and see projects
+                                through
+                                to
+                                their launch.</p>
+
+                            <p>My curiosity and passion for learning drive me, not only in my professional pursuits but
+                                also
+                                in
+                                my personal life. I look forward to bringing my unique blend of experiences and
+                                unwavering
+                                dedication to a career in web development, creating solutions that make a difference in
+                                the
+                                digital landscape.</p>
+
+                            <hr class="solid">
                         </section>
-                        <a class="email" href="mailto:mramorialban@gmail.com">Mramorialban@gmail.com</a>
-
                     </section>
-                </footer>
+
+                    <section id="skills" class="skills-list">
+
+                        <section class="junior-level">
+                            <h2>Junior Level Skills</h2>
+                            <ul class="ul">
+                                <li class="skill li">
+                                    <span class="skill-name">HTML</span>
+                                </li>
+                                <li class="skill li">
+                                    <span class="skill-name">CSS</span>
+                                </li>
+                                <li class="skill li">
+                                    <span class="skill-name">Javascript</span>
+                                </li>
+                                <li class="skill li">
+                                    <span class="skill-name">Node JS</span>
+                                </li>
+                                <li class="skill li">
+                                    <span class="skill-name">Express JS</span>
+                                </li>
+                                <li class="skill li">
+                                    <span class="skill-name">MongoDB</span>
+                                </li>
+                                <li class="skill li">
+                                    <span class="skill-name">REACT JS</span>
+                                </li>
+                                <li class="skill li">
+                                    <span class="skill-name">React native</span>
+                                </li>
+                                <li class="skill li">
+                                    <span class="skill-name">Bootstrap</span>
+                                </li>
+                            </ul>
+                        </section>
+                        <section class="beginner-level">
+                            <h2>Beginner skills</h2>
+                            <ul class="ul">
+                                <li class="skill li">
+                                    <span class="skill-name">Angular</span>
+                                </li>
+                                <li class="skill li">
+                                    <span class="skill-name">Android</span>
+                                </li>
+                                <li class="skill li">
+                                    <span class="skill-name">Kotlin</span>
+                                </li>
+                            </ul>
+
+                        </section>
+                    </section>
+                </section>
+                <hr class="solid">
+
+                <h2 class="portfolio-title-section">My Portfolio hilights</h2>
+
+                <section id="pokedex" class="pokedex">
+                    <section class="card">
+                        <img src="assets/A1.png" alt="Card Image">
+                        <section class="card-content">
+                            <h2>Pokédex</h2>
+                            <p>The Pokédex JavaScript App is a small web application built with HTML, CSS, and
+                                JavaScript.
+                                It
+                                loads data from an external API and allows users to view a list of data items (in this
+                                case,
+                                Pokémon) and see more details for a selected data item.</p>
+                            <h2>Technologies Used</h2>
+                            <ul>
+                                <li class="tech-used">HTML</li>
+                                <li class="tech-used">CSS</li>
+                                <li class="tech-used">JavaScript</li>
+                                <li class="tech-used">Ajax for asynchronous API data fetching</li>
+                            </ul>
+                            <a target="_blank" href="https://baninations.github.io/pokedex/">Visit site</a>
+                            <a target="_blank" href="https://github.com/baninations/pokedex">See project on Github</a>
+                        </section>
+                    </section>
+                </section>
+
+                <section class="cards-container">
+
+                    <section id="myFlixApi" class="pokedex">
+                        <section class="card">
+                            <img src="assets/A2.png" alt="Card Image">
+                            <section class="card-content">
+                                <h2>myFlix API</h2>
+                                <p>The myFlix Express.js API is the server-side component of the myFlix movie
+                                    application.
+                                    This
+                                    API handles user registration and authentication, as well as provides access to
+                                    movie
+                                    information, director details, and genre data. It is designed to work in conjunction
+                                    with
+                                    the myFlix Angular client-side application.</p>
+                                <h2>Technologies Used</h2>
+                                <ul>
+                                    <li>JavaScript</li>
+                                    <li>Node.js</li>
+                                    <li>Express.js</li>
+                                    <li>MongoDB</li>
+                                    <li>REST API</li>
+                                    <li>JWT Authentication</li>
+                                    <li>Heroku</li>
+                                </ul>
+                                <a target="_blank" href="https://movies-flix-al-f68cdd84f041.herokuapp.com/">Visit
+                                    site</a>
+                                <a target="_blank" href="https://github.com/baninations/server-movie-api">See project on
+                                    gitHub</a>
+                            </section>
+                        </section>
+                    </section>
+
+
+                    <section id="myFlixReact" class="pokedex">
+                        <section class="card">
+                            <img src="assets/A3.png" alt="Card Image">
+                            <section class="card-content">
+                                <h2>myFlix React</h2>
+                                <p> The myFlix React App is a single-page, responsive web application that
+                                    allows movie enthusiasts to access information about different movies, create user
+                                    profiles,
+                                    and save their favorite movies. It serves as the client-side component for the
+                                    myFlix
+                                    movie
+                                    application, working in conjunction with the server-side API.</p>
+                                <h2>Technologies Used</h2>
+                                <ul>
+                                    <li>JavaScript</li>
+                                    <li>React JS</li>
+                                    <li>Parcel</li>
+                                    <li>State</li>
+                                    <li>React Forms</li>
+                                    <li>React Routing</li>
+                                    <li>React Bootstrap</li>
+                                    <li>Netlify</li>
+                                </ul>
+                                <a target="_blank" href="https://my-flix-alban.netlify.app/">Visit site</a>
+                                <a target="_blank" href="https://github.com/baninations/myFlixReact">See project on
+                                    gitHub</a>
+                            </section>
+                        </section>
+                    </section>
+
+                    <section id="MeetApp" class="pokedex">
+                        <section class="card">
+                            <img src="assets/A4.png" alt="Card Image">
+                            <section class="card-content">
+                                <h2>Meet App</h2>
+                                <p> Meet is a serverless, progressive web application (PWA) built with
+                                    React. It includes data visualization using a test-driven development (TDD)
+                                    technique
+                                    and
+                                    leverages the Google Calendar API to fetch upcoming events. You can use it to get
+                                    events
+                                    in
+                                    a city near you.</p>
+                                <h2>Technologies Used</h2>
+                                <ul>
+                                    <li>JavaScript</li>
+                                    <li>Test Driven Development</li>
+                                    <li>Serverless Functions</li>
+                                    <li>Unit Testing</li>
+                                    <li>Integration Testing</li>
+                                    <li>User Acceptance Testing</li>
+                                    <li>End-to-End Testing</li>
+                                    <li>Continuous Integration/Continuous Deployment (CI/CD)</li>
+                                    <li>Progressive Web Applications (PWA)</li>
+                                    <li>Data Visualization</li>
+                                    <li>AWS (Amazon Web Services)</li>
+                                    <li>Calendar API</li>
+                                    <li>OAuth 2</li>
+                                </ul>
+                                <a target="_blank" href="https://baninations.github.io/meet">Visit site</a>
+                                <a target="_blank" href="https://github.com/baninations/meet">See project on gitHub</a>
+                            </section>
+                        </section>
+                    </section>
+
+                    <section id="ChatApp" class="pokedex">
+                        <section class="card card-chat">
+                            <img class="chat-app-img-desktop" src="assets/A55.png" alt="Card Image">
+                            <img class="chat-app-img-mobile" src="assets/A5.png" alt="Card Image">
+                            <section class="card-content">
+                                <h2>Chat App</h2>
+                                <p> This is a mobile chat application developed using React Native and Expo,
+                                    featuring real-time chat functionality, image sharing, location sharing, and offline
+                                    data
+                                    storage. Users can personalize their chat experience by choosing background colors.
+                                </p>
+                                <h2>Technologies Used</h2>
+                                <ul>
+                                    <li>JavaScript</li>
+                                    <li>React Native</li>
+                                    <li>Expo</li>
+                                    <li>Android Studio (Emulator)</li>
+                                    <li>Gifted Chat</li>
+                                    <li>Real-Time App</li>
+                                    <li>Data Storage</li>
+                                    <li>Firebase</li>
+                                    <li>Firestore Authentication</li>
+                                    <li>Client-Side Storage</li>
+                                </ul>
+                                <a target="_blank" href="https://github.com/baninations/chat-app">See project on
+                                    gitHub</a>
+                            </section>
+                        </section>
+                    </section>
+
+                    <section id="myFlixAngular" class="pokedex">
+                        <section class="card">
+                            <img src="assets/A6.png" alt="Card Image">
+                            <section class="card-content">
+                                <h2>myFlix Angular</h2>
+                                <p>The myFlix Angular App is a single-page, responsive movie application
+                                    built using Angular. It allows users to access information about movies, directors,
+                                    and
+                                    genres. Users can create profiles to save data about their favorite movies. This app
+                                    is
+                                    designed to facilitate user requests and render responses from the server-side via
+                                    various
+                                    interface views.</p>
+                                <h2>Technologies Used</h2>
+                                <ul>
+                                    <li>Typescript</li>
+                                    <li>Angular</li>
+                                    <li>Angular CLI</li>
+                                    <li>Data Binding</li>
+                                    <li>Interpolation</li>
+                                    <li>Angular Forms</li>
+                                    <li>Material Design</li>
+                                    <li>TypeDoc</li>
+                                    <li>GitHub Pages (GH-Pages)</li>
+                                </ul>
+                                <a target="_blank" href="https://baninations.github.io/myFlixx/welcome">Visit site</a>
+                                <a target="_blank" href="https://github.com/baninations/myFlixx">See project on
+                                    gitHub</a>
+                            </section>
+                        </section>
+                        <footer class="footer">
+                            <section id="findMeOn" class="find-me-on-footer">
+                                <h2 class="fmo-title">Find me on</h2>
+                                <section id="social-media-footer">
+                                    <a class="social-media-icons" href="https://github.com/baninations"
+                                        target="_blank"><img src="assets/github.svg" alt="Github" /></a>
+                                    <a class="social-media-icons"
+                                        href="https://de.linkedin.com/in/alban-mramori-4069781a2" target="_blank"><img
+                                            src="assets/linkedin.svg" alt="LinkedIn" /></a>
+                                    <a class="social-media-icons" href="mailto:mramorialban@gmail.com"
+                                        target="_blank"><img src="assets/email.svg" alt="E-mail" /></a>
+                                </section>
+                                <a class="email" href="mailto:mramorialban@gmail.com">Mramorialban@gmail.com</a>
+
+                            </section>
+                        </footer>
+                    </section>
+
+                </section>
             </section>
 
-        </section>
-    </section>
+            <script src="scripts/scripts.js"></script>
 </body>
 
 </html>
