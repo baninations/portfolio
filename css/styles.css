@@ -157,16 +157,11 @@ h2{
 }
 
 hr.solid {
-  width: 50vw;
+  width: 90%;
   border-top: 3px solid #bbb;
 }
 
-.skills-list {
-  width: inherit;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: top;
-}
+
 
 .card {
   width: inherit;
@@ -253,6 +248,70 @@ hr.solid {
   display: none;
 }
 
+.portfolio-title-section {
+  text-align: center;
+}
+
+.skills-list {
+  width: inherit;
+  display: flex;
+
+}
+
+.logos{
+  width: 100%;
+}
+.logo_slider {
+overflow: hidden;
+width: 400px;
+margin: auto;
+}
+
+.logo_slider {
+  overflow: hidden;
+}
+
+.logo_slider ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  position: relative;
+  animation: mymove 10s linear infinite;
+}
+
+.logo_slider ul li {
+  flex-shrink: 0;
+  flex-grow: 0;
+  display: block;
+  border: 1px solid #ccc;
+  margin: 20px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.logo_slider ul li a img {
+  width: 100%;
+}
+
+.dev-icons {
+  display: flex;
+  justify-content: center;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+  0%    { left: 0; }
+  100%  { left: -100%; }
+}
+
+/* Standard syntax */
+
+@keyframes mymove {
+  0%    { left: 0; }
+  100%  { left: -100%; }
+}
 
 @media (min-width: 600px) and (max-width: 750px) {
 
@@ -472,6 +531,13 @@ a::before {
   /* border: 3px solid red ; */
 }
 
+li a.link-item.contact {
+  color: #ff6600; /* Change the color to your desired highlight color */
+  font-weight: bold; /* Make it bold to stand out */
+  text-decoration: underline; /* Add underline to make it visually different */  
+}
+
+
 }
 
 @media (min-width: 250px) and (max-width: 1300px) {
@@ -486,4 +552,12 @@ a::before {
       margin-right: 0px;
       text-align: left;
   }
+}
+
+@media (max-width: 380px) {
+  .logo_slider {
+    overflow: hidden;
+    width: 275px;
+    margin: auto;
+    }
 }
