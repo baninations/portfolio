@@ -255,7 +255,11 @@ hr.solid {
 .skills-list {
   width: inherit;
   display: flex;
+  flex-direction: column;
+}
 
+.divideer {
+  margin: 20px;
 }
 
 .logos{
@@ -300,17 +304,41 @@ margin: auto;
   justify-content: center;
 }
 
-/* Safari 4.0 - 8.0 */
-@-webkit-keyframes mymove {
-  0%    { left: 0; }
-  100%  { left: -100%; }
+.dev-icon {
+  padding: 2%;
 }
 
-/* Standard syntax */
+.container-skills {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
 
-@keyframes mymove {
-  0%    { left: 0; }
-  100%  { left: -100%; }
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill-box {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 16px;
+  margin: 5px;
+  text-align: center;
+}
+
+@media (max-width: 484px) {
+  .dev-icon {
+    height: 32px;
+    width: 32px;
+    padding: 1.5px;
+  }
 }
 
 @media (min-width: 600px) and (max-width: 750px) {
@@ -355,6 +383,8 @@ margin: auto;
       display: none;
   }
 
+
+
 }
 
 @media (min-width: 751px) and (max-width: 1300px) {
@@ -390,6 +420,27 @@ margin: auto;
       left: 0; 
       width: 30%;
   }
+  .dev-icon {
+    height: 48px;
+    width: 48px;
+    padding: 1%;
+  }
+}
+
+@media (min-width: 780px) and (max-width: 1000px) {
+  .dev-icon {
+    height: 48px;
+    width: 48px;
+    padding: 0.3%;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 780px) {
+  .dev-icon {
+    height: 38px;
+    width: 38px;
+    padding: 0.2%;
+  }
 }
 
 @media (max-width: 600px) {
@@ -400,6 +451,13 @@ margin: auto;
       margin-right: 0px;
       /* border: 3px solid greenyellow; */
   }
+
+  .dev-icon {
+    height: 32px;
+    width: 32px;
+    padding: 0.1%;
+  }
+  
 
   #myLinks {
     display: block;
