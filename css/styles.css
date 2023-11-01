@@ -134,6 +134,10 @@ h2{
 }
 
 .profile-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin-left: 100px;
   margin-right: 100px;
   text-align: left;
@@ -243,6 +247,21 @@ hr.solid {
       border-radius: 5px; 
       text-align: center; 
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      width: 90%;
+}
+
+.btn-cv {
+  font-family: 'Arial', sans-serif;
+  font-size: 24px;
+  background-color: #3498db;
+  color: #fff; 
+  padding: 10px 20px;
+  border-color: #3498db;
+  border-radius: 5px; 
+  text-align: center; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  cursor: pointer;
 }
 
 .logo-mobile {
@@ -251,6 +270,10 @@ hr.solid {
 
 .portfolio-title-section, .skills-title {
   text-align: center;
+}
+
+.btn-cv {
+
 }
 
 .skills-list {
@@ -306,7 +329,9 @@ margin: auto;
 }
 
 .dev-icon {
-  padding: 2%;
+  height: 64px;
+  width: 64px;
+  padding: 2.5%;
 }
 
 .container-skills {
