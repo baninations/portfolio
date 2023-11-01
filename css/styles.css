@@ -21,6 +21,7 @@
   display: none;
 }
 
+
 .side-bar {
   display: flex;
   flex: 20%;
@@ -248,7 +249,7 @@ hr.solid {
   display: none;
 }
 
-.portfolio-title-section {
+.portfolio-title-section, .skills-title {
   text-align: center;
 }
 
