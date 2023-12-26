@@ -1,7 +1,7 @@
 ## Portfolio site 
 - Live https://baninations.github.io/portfolio/
 
-## Portfolio includes project that I've worked on like: 
+## Portfolio includes projects that I've worked on like: 
 - Pokedex
 - Movie-server
 - MyFlixClient
